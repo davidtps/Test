@@ -1,15 +1,25 @@
 package com.hisense.test;
 
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.hisense.test.server.HttpServer;
+
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
     boolean flag = false;
     private static int UPDATE_VIDEO_FILE_MAX_SIZE = 450;//unit is M
+    private HttpServer server;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +93,37 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button button = findViewById(R.id.service_stop);
-        button.setText(getString(R.string.epos_updating_tips));
+        button.setText(getLocalIpStr(this));
 
+        server = new HttpServer();
+        try {
+            server.start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    //获取IP地址
+    public static String getLocalIpStr(Context context) {
+        WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+        Log.d(TAG, "wifi info ip address:" + wifiInfo.getIpAddress());
+        return intToIpAddr(wifiInfo.getIpAddress());
+    }
+
+    private static String intToIpAddr(int ip) {
+        return (ip & 0xFF) + "."
+                + ((ip >> 8) & 0xFF) + "."
+                + ((ip >> 16) & 0xFF) + "."
+                + ((ip >> 24) & 0xFF);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (server != null) {
+            server.stop();
+        }
     }
 }
