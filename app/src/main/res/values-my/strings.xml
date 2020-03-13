@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">StoreMode</string>
+
+    <string name="key_picture_ajust">key_picture_ajust</string>
+    <string name="key_sound_ajust">key_sound_ajust</string>
+    <string name="key_vidaa_feature_demo">key_vidaa_feature_demo</string>
+    <string name="key_build_in_video_update">key_build_in_video_update</string>
+    <string name="key_aq_pq_adjust">key_aq_pq_adjust</string>
+    <string name="key_mall_logo">key_mall_logo</string>
+    <string name="key_auto_play_setup">key_auto_play_setup</string>
+    <string name="key_epos_switch">key_epos_switch</string>
+    <string name="key_build_in_video_switch">key_build_in_video_switch</string>
+    <string name="key_sharepref_usb_video_check">key_sharepref_usb_video_check</string>
+    <string name="key_epos_position_adjustment">key_e-pos_position_adjustment</string>
+    <string name="key_epos_position_left">key_epos_position_left</string>
+    <string name="key_epos_position_right">key_epos_position_right</string>
+    <string name="key_epos_position_top">key_epos_position_top</string>
+    <string name="key_epos_position_bottom">key_epos_position_bottom</string>
+    <string name="key_malllogo_position_adjustment">key_malllogo_position_adjustment</string>
+    <string name="key_malllogo_position_left">key_malllogo_position_left</string>
+    <string name="key_malllogo_position_right">key_malllogo_position_right</string>
+    <string name="key_malllogo_position_top">key_malllogo_position_top</string>
+    <string name="key_malllogo_position_bottom">key_malllogo_position_bottom</string>
+    <string name="key_sharepref_usb_pic_check">key_sharepref_usb_pic_check</string>
+    <string name="key_sharepref_signal_check">key_sharepref_signal_check</string>
+    <string name="key_sharepref_build_in_pic_check">key_sharepref_build_in_pic_check</string>
+    <string name="key_sharepref_build_in_video_check">key_sharepref_build_in_video_check</string>
+    <string name="key_sharepref_usb_res_priority_check">key_sharepref_usb_res_priority_check</string>
+    <string name="key_setup_choice_three">key_setup_choice_three</string>
+    <string name="key_build_in_picture_update">key_build_in_picture_update</string>
+    <string name="key_epos_update">key_epose_update</string>
+
+    <string name="seller_settings">စတိုးဆုိင္မုဒ္ ဆက္တင္မ်ား</string>
+    <string name="build_in_video_update">ပါဝင္သည့္ ဗီဒီယို အသစ္မြမ္းမံမႈ</string>
+    <string name="aq_pq_adjust">အသံ အရည္အေသြးႏွင့္ ႐ုပ္ပံု အရည္အေသြး ခ်ိန္ညိႇမႈ</string>
+    <string name="mall_logo">ကုန္တိုက္ႏွင့္ အေရာင္းျမႇင့္တင္ေရး လိုဂို</string>
+    <string name="auto_play_setup">အလုိအေလ်ာက္ ပေလးဘက္ တည္ေဆာက္မႈ</string>
+    <string name="epos_switch">E-Pos ခလုတ္</string>
+
+    <string name="resume_storemode_title">စတိုးဆိုင္မုဒ္ ဒီမိုကို ဆက္လက္လုပ္ေဆာင္ပါ</string>
+    <string name="resume_storemode_desc">မၾကာမီ TV သည္ စတိုးဆိုင္မုဒ္ ဒီမိုသို႔ ျပန္သတ္မွတ္လိမ့္မည္၊ ဤလုပ္ေဆာင္မႈကို ေနာက္ေရႊ႕ဆိုင္းရန္ အေဝးထိန္းမွ ခလုတ္တစ္ခုခုကို ႏွိပ္ႏိုင္ပါသည္။</string>
+    <string name="fte_init_storemode_title">စတိုးဆိုင္မုဒ္ကို စတင္လိုက္ပါ</string>
+    <string name="fte_init_storemode_desc">စတိုးအေနအထားသို႔ ေျပာင္းသြားမည္ျဖစ္သည္၊ ဆက္လက္ လုပ္ေဆာင္လိုပါသလား။</string>
+    <string name="fte_init_storemode_back">FTE သို႔ ျပန္သြားပါ</string>
+    <string name="fte_init_storemode_enter">စတိုးဆိုင္မုဒ္သို႔ ဝင္ေရာက္ပါ</string>
+
+
+    <string name="usb_not_found">USB ကိရိယာ မေတြ႕ပါ။ သင့္ကိရိယာသည္ ခ်ိတ္ထားေၾကာင္း ေသခ်ာစြာ လုပ္ေဆာင္ပါ။</string>
+    <string name="udate_success">အပ္ဒိတ္ ေအာင္ျမင္သည္!</string>
+    <string name="guide_poweron_title">အိမ္သံုးမုဒ္ကို ဆက္တင္မ်ားတြင္ ေျပာင္းႏိုင္ပါသည္</string>
+
+    <string name="use_mode">အသံုးျပဳမႈ အေနအထား</string>
+    <string name="user_mode">ပင္မ အေနအထား</string>
+    <string name="store_mode">စတိုးဆိုင္မုဒ္</string>
+    <string name="store_mode_with_video">Store Mode with video</string>
+    <string name="select_a_mall_logo">ေမးလ္လိုဂိုတစ္ခု ေရြးခ်ယ္ပါ</string>
+    <string name="seller_settings_toast">စတိုးဆိုင္မုဒ္တည္ေဆာက္ရန္ မီႏူးကို ႏွိပ္ပါ</string>
+
+    <string name="mall_logo_limit">PNG သို႔မဟုတ္ JPG ႐ုပ္ပံု ေရြးခ်ယ္ပါ</string>
+    <string name="enter_storemode">စတိုးဆိုင္မုဒ္သို႔ ဝင္ေရာက္ပါ</string>
+    <string name="init_storemode_countdown">အကယ္၍ သင္သည္ အိုေကခလုတ္ကို ဖိကိုင္ထားပါက TV အတြက္ မီႏူးသည္ စတိုးဆိုင္မုဒ္ကို အစျပဳလိမ့္မည္။</string>
+    <string name="not_find_update_file_tips">မြမ္းမံရန္ ဖိုင္မေတြ႕ပါ။ %1$s သည္ USB ၏ ပင္မဒိုင္ယာထရီတြင္ ရွိေနေၾကာင္း ေသခ်ာပါေစ။</string>
+    <string name="not_find_update_file_tips2">မြမ္းမံရန္ ဖိုင္မေတြ႕ပါ။ %1$s သို႔မဟုတ္ %2$s သည္ USB ၏ ပင္မဒိုင္ယာထရီတြင္ ရွိေနေၾကာင္း ေသခ်ာပါေစ။</string>
+    <string name="add_mall_logo_success">ေမးလ္လိုဂိုကို ေအာင္ျမင္စြာ အပ္လုဒ္တင္ၿပီးၿပီ။</string>
+
+    <string name="epos_position_adjustment">E\u2011Pos အေနအထား ခ်ိန္ညႇိခ်က္</string>
+    <string name="mall_logo_position_adjustment">ကုန္တိုက္ႏွင့္ အေရာင္းျမႇင့္တင္ေရး လိုဂို အေနအထား ခ်ိန္ညႇိမႈ</string>
+    <string name="epos_update">E\u2011Pos မြမ္းမံမႈ</string>
+    <string name="invalid_button_press_tips">စတိုးဆိုင္မုဒ္တြင္ မမွန္ေသာ ခလုတ္ကို ႏွိပ္သည္</string>
+    <string name="video_update_title">ဗီဒီယို မြမ္းမံပါ</string>
+
+    <string name="prompt_build_in_video_update">တစ္ပါတည္းပါလာေသာ ဗီဒီယိုကို မြမ္းမံေနသည္။ ေစာင့္ေနပါ။</string>
+    <string name="video_update_button_update">အပ္ဒိတ္</string>
+    <string name="video_update_button_cancel">ပယ္ဖ်က္</string>
+    <string name="picture_update_title">႐ုပ္ပံု မြမ္းမံပါ</string>
+    <string name="prompt_build_in_picture_update">တစ္ပါတည္းပါလာေသာ ႐ုပ္ပံုကို မြမ္းမံေနသည္။ ေစာင့္ေနပါ။</string>
+    <string name="update_build_in_video_toast_tips">ေစာင့္ေနပါ၊ ဗီဒီယိုကို မြမ္းမံေနသည္။</string>
+    <string name="update_build_in_pic_toast_tips">ေစာင့္ေနပါ၊ ႐ုပ္ပံုကို မြမ္းမံေနသည္။</string>
+    <string name="updating_tips_text">မြမ္းမံေနသည္။ ေစာင့္ေနပါ။</string>
+    <string name="dialog_btn_confirm_tip">အတည္ျပဳပါ</string>
+    <string name="dialog_btn_delete_tip">ဖ်က္ပါ</string>
+    <string name="dialog_btn_cancel_tip">ပယ္ဖ်က္</string>
+    <string name="build_in_picture_update">တစ္ပါတည္းပါလာေသာ ႐ုပ္ပံုကို မြမ္းမံမႈ</string>
+    <string name="no_find_update_pic_file_tips">႐ုပ္ပံု မြမ္းမံရန္ ဖိုင္မေတြ႕ပါ။ ဖိုင္အမည္ေရွ႕ပိုင္းသည္ [%1$s] ျဖစ္သင့္သည္</string>
+    <string name="update_video_max_size_tips_text">လက္ရွိဗီဒီယို မြမ္းမံရန္ဖိုင္သည္ %1$d M ရွိသည္။ အႀကီးဆံုး ေထာက္ပံ့သည့္ အရြယ္အစားမွာ %2$d M ျဖစ္သည္။</string>
+
+    <!--AutoSetUp-->
+    <string name="checkbox_usb_video_content">USB ဗီဒီယို</string>
+    <string name="checkbox_usb_pic_content">USB ႐ုပ္ပံု</string>
+    <string name="checkbox_signal_content">အခ်က္ျပ</string>
+    <string name="checkbox_build_in_pic_content">တစ္ပါတည္းပါလာေသာ ႐ုပ္ပံု</string>
+    <string name="checkbox_build_in_video_content">ပါဝင္သည့္ ဗီဒီယို </string>
+    <!--aq & pq ajust-->
+    <string name="picture_ajust">႐ုပ္ပံု</string>
+    <string name="sound_ajust">အသံ</string>
+    <!--SellerSetting-->
+    <string name="switch_usb_priority_content">USB Priority</string>
+
+    <!--Mall Logo-->
+    <string name="mall_logo_max_pic_size">အႀကီးဆံုး ဆိုင္လိုဂိုအရြယ္အစားသည္ %1$d ျဖစ္သည္။</string>
+    <string name="mall_logo_pic_exist">႐ုပ္ပံု ရွိၿပီးျဖစ္သည္။</string>
+    <string name="delete_picture_dialog_title">႐ုပ္ပံု ဖ်က္ပါ</string>
+    <string name="delete_picture_dialog_content">၎ကို ဖ်က္လိုသည္မွာ ေသခ်ာပါသလား။</string>
+    <string name="delete_picture_succes_tips">ေအာင္ျမင္စြာ ဖ်က္ၿပီးၿပီ</string>
+
+    <!--Epos/Mall Logo Position-->
+    <string name="position_left">ဘယ္ဘက္</string>
+    <string name="position_right">ညာဘက္</string>
+    <string name="position_top">အေနာက္မွ ထိပ္ဆံုးသို႔</string>
+    <string name="position_bottom">ေအာက္ေျခ</string>
+    <string name="epos_updating_tips">E-Pos အပ္ဒိတ္လုပ္ေနသည္။ ေစာင့္ေနပါ။</string>
+    <string name="btn_done">ၿပီးၿပီ</string>
+    <string name="btn_edit">တည္းျဖတ္</string>
+</resources>

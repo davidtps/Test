@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="start Recevier"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <Button
+        android:id="@+id/start_4k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start 4k Recevier"
+        tools:layout_editor_absoluteX="111dp" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop Recevier"
+        tools:layout_editor_absoluteX="124dp" />
+
+
+    <Button
+        android:id="@+id/service_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="start Service"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <Button
+        android:id="@+id/service_4k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start 4k Service"
+        tools:layout_editor_absoluteX="111dp" />
+
+    <Button
+        android:id="@+id/service_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop Service"
+        tools:layout_editor_absoluteX="124dp" />
+
+</LinearLayout>
