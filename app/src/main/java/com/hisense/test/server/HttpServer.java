@@ -5,8 +5,8 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import fi.iki.elonen.NanoHTTPD;
@@ -17,6 +17,7 @@ import fi.iki.elonen.NanoHTTPD;
 public class HttpServer extends NanoHTTPD {
     public static final int DEFAULT_SERVER_PORT = 8080;//为8080
     public static final String TAG = HttpServer.class.getSimpleName();
+    String[] result;
     //根目录
     private static final String REQUEST_ROOT = "/";
 
@@ -40,26 +41,38 @@ public class HttpServer extends NanoHTTPD {
                 Map<String, String> files = new HashMap<String, String>();
                 /*获取header信息，NanoHttp的header不仅仅是HTTP的header，还包括其他信息。*/
                 Map<String, String> header = session.getHeaders();
+                Log.d(TAG, "url : " + session.getUri() + "        pa:" + session.getQueryParameterString());
 
-                try {
-                    session.parseBody(files);
-                    String param = files.get("postData");
+                Map<String, List<String>> temp = session.getParameters();
+                Log.d(TAG, "value : " + temp.get("value").get(0));
 
-                    Log.d(TAG, "header : " + header);
-                    Log.d(TAG, "files : " + files);
-                    Log.d(TAG, "param : " + param);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (ResponseException e) {
-                    e.printStackTrace();
-                }
+                result = temp.get("value").get(0).split("-");
+
+//                try {
+//                    session.parseBody(files);
+//                    String param = files.get("postData");
+//
+//                    Log.d(TAG, "header : " + header);
+//                    Log.d(TAG, "files : " + files);
+//                    Log.d(TAG, "param : " + param);
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                } catch (ResponseException e) {
+//                    e.printStackTrace();
+//                }
                 break;
             }
         }
         Response response = null;
         try {
             JSONObject o = new JSONObject();
-            o.put("result", "gfdgf");
+            if (result.length == 4) {
+                o.put("code", 200);
+                o.put("data", "server 接收数据成功。");
+            } else {
+                o.put("code", 201);
+                o.put("error", "接受数据不符合规范");
+            }
             String resp = o.toString();
             response = newFixedLengthResponse(Response.Status.OK, "application/json", resp);
             System.out.println("result:" + resp);

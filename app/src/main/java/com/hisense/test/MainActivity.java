@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Intent intent = new Intent(this, EmptyService.class);
-        startService(intent);
+        startForegroundService(intent);
 
         setContentView(R.layout.activity_main);
         findViewById(R.id.start).setOnClickListener(new View.OnClickListener() {
