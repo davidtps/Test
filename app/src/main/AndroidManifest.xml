@@ -15,20 +15,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <receiver
-            android:name=".InstallResultReceiver"
+            android:name=".CallbackReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.hisense.storemode.install_storemode_app" />
+                <action android:name="com.hisense.tv.smartsense.callback" />
             </intent-filter>
 
         </receiver>
         <service android:name=".EmptyService" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebviewActivity">
+            <intent-filter>
+                <action android:name="test.action" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

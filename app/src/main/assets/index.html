@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello OpenCV.js & Tensorflow.Js</title>
+    <script async src="opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+    <script src="change.js" type="text/javascript"></script>
+    <script src="tf.min.js"></script>
+</head>
+<body>
+<h2>Hello Tensorflow.Js & OpenCV.js</h2>
+<p id="status">OpenCV.js is loading...</p>
+<div>
+    <div class="inputoutput">
+        <img id="imageSrc" alt="No Image"/>
+        <div class="caption">imageSrc <input type="file" id="fileInput" name="file"/></div>
+    </div>
+    <div class="inputoutput">
+        <canvas id="canvasOutput"></canvas>
+        <div class="caption">Show images above and result on console.</div>
+    </div>
+</div>
+<!-- <script src="index.js"></script> -->
+<script type="text/javascript">
+ Storage.set = function(name, val) {
+    localStorage.setItem(name, val);
+  }
+
+ Storage.get = function(name) {
+  return localStorage.getItem(name);
+}
+
+
+
+const MODEL_URL = 'model.json';
+
+let model;
+async function load_model() {
+
+ Storage.set("model", "model.json");
+<!--const model = tf.sequential();-->
+<!-- const saveResults = await model.save(Storage.get("model"));-->
+const tf = require('@tensorflow/tfjs');
+require('@tensorflow/tfjs-node');
+
+
+  model = await tf.loadLayersModel(Storage.get("model"));
+  console.log('load model finished. ' + model);
+  model.summary();
+  
+  const out = model.predict(tf.zeros([1, 225, 400, 1])); //.dispose();
+  
+  console.log('test model out = ' + out);
+}
+
+/**
+ * Given an image element, makes a prediction through mobilenet returning the
+ * probabilities of the top K classes.
+ */
+async function predict(imgElement) {
+  console.log('Predicting...');
+
+  // The first start time includes the time it takes to extract the image
+  // from the HTML and preprocess it, in additon to the predict() call.
+  //const startTime1 = performance.now();
+  // The second start time excludes the extraction and preprocessing and
+  // includes only the predict() call.
+  //let startTime2;
+    // tf.browser.fromPixels() returns a Tensor from an image element.
+    const img = tf.browser.fromPixels(imgElement, 1).toFloat();
+
+    const offset = tf.scalar(255.0);
+    // Normalize the image from [0, 255] to [-1, 1].
+    const normalized = img.div(offset);
+
+    // Reshape to a single-element batch so we can pass it to predict.
+    const batched = normalized.reshape([1, 225, 400, 1]);
+
+	//model.summary();
+
+    //startTime2 = performance.now();
+    // Make a prediction through mobilenet.
+    var result = model.predict(batched);
+	console.log('result = ' + result);
+}
+
+load_model();
+
+let imgElement = document.getElementById('imageSrc');
+let inputElement = document.getElementById('fileInput');
+
+inputElement.addEventListener('change', (e) => {
+  imgElement.src = URL.createObjectURL(e.target.files[0]);
+}, false);
+
+imgElement.onload = function() {
+  var timestamp = (new Date()).valueOf();
+  console.log('time = ' + timestamp);
+  let mat = cv.imread(imgElement);
+  
+  console.log('图像宽度：'+ mat.cols +'\ n'+
+            '图像高度：'+ mat.rows +'\ n'+
+            '图像大小：'+ mat.size().width*mat.size().height +'\ n'+
+            '图像深度：'+ mat.depth()+'\ n'+
+            '图像通道'+ mat.channels()+'\ n'+
+            '图像类型：'+ mat.type()+'\ n');
+			
+		
+  let dst 	= 	mat.clone();
+  //let tvImage =  getTvImageMat(mat,dst);
+    let tvImage =  getThresholdTvImageMat(mat,dst);
+  if(tvImage!=null){
+	cv.imshow('canvasOutput', tvImage);
+  
+	predict(document.getElementById('canvasOutput'));
+  
+  }
+  mat.delete();dst.delete()
+  var timestamp1 = (new Date()).valueOf();
+  
+  var used = timestamp1 - timestamp;
+  console.log('time used = ' + used);
+};
+
+function onOpenCvReady() {
+  document.getElementById('status').innerHTML = 'OpenCV.js is ready.';
+}
+
+</script>
+</body>
+</html>
