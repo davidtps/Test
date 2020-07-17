@@ -114,4 +114,9 @@
     <string name="epos_updating_tips">Aggiornamento E-Pos. Si prega di attendere.</string>
     <string name="btn_done">Ok</string>
     <string name="btn_edit">Modifica</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>AVVERTENZE</b></string>
+    <string name="energy_summary_one">Il consumo energetico nella modalità immagine corrente può essere superiore a quanto indicato nell\'etichetta di potenza nominale energetica.</string>
+    <string name="energy_summary_two">Utilizza la modalità immagine standard per un consumo energetico normale</string>
 </resources>

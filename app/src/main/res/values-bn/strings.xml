@@ -88,6 +88,7 @@
     <string name="update_video_max_size_tips_text">বর্তমান ভিডিও আপডেট ফাইলটি %1$dএম। সর্বাধিক আকার সমর্থিত: %2$dএম।</string>
 
 
+
     <string name="checkbox_usb_video_content">ইউএসবি ভিডিও</string>
     <string name="checkbox_usb_pic_content">ইউএসবি ছবি</string>
     <string name="checkbox_signal_content">সংকেত</string>
@@ -113,4 +114,8 @@
     <string name="epos_updating_tips"> E-Pos আপডেট করা হচ্ছে। অনুগ্রহ করে অপেক্ষা করুন।</string>
     <string name="btn_done">কাজ</string>
     <string name="btn_edit">সম্পাদনা করুন</string>
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>সতর্কতা</b></string>
+    <string name="energy_summary_one">কারেন্ট পিকচার মোড এ শক্তি ব্যয় এনার্জি রেটিং লেবেলে নির্দেশিত তথ্যের থেকে বেশী হতে পারে</string>
+    <string name="energy_summary_two">স্বাভাবিক শক্তি খরচের জন্য স্ট্যান্ডার্ড ছবি মোড ব্যবহার করুন</string>
 </resources>

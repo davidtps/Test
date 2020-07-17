@@ -112,4 +112,9 @@ Posisjonsjustering</string>
     <string name="epos_updating_tips">Oppdaterer E-Pos. Vennligst vent.</string>
     <string name="btn_done">Ferdig</string>
     <string name="btn_edit">Redigere</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ADVARSEL</b></string>
+    <string name="energy_summary_one">Energiforbruket i gjeldende bildemodus kan være høyere enn det som er beskrevet på energimerkingen</string>
+    <string name="energy_summary_two">Bruk standard bildemodus for normalt energiforbruk</string>
 </resources>

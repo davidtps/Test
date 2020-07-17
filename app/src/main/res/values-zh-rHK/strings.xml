@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">正在更新E-Pos，請稍候。</string>
     <string name="btn_edit">編輯</string>
     <string name="btn_done">完成</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>警告</b></string>
+    <string name="energy_summary_one">目前圖片模式的用電量可能比能源標示標籤所示更高。</string>
+    <string name="energy_summary_two">請使用標準圖片模式，維持正常用電量</string>
 </resources>

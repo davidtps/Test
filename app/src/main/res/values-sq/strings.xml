@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Duke përditësuar E-Pos. Ju lutemi prisni.</string>
     <string name="btn_done">Përfundoi</string>
     <string name="btn_edit">Modifiko</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>PARALAJMËRIM</b></string>
+    <string name="energy_summary_one">Konsumi i energjisë në modalitetin aktual të figurës mund të jetë më i lartë nga sa tregohet në etiketën e vlerave të energjisë.</string>
+    <string name="energy_summary_two">Ju lutem përdorni modalitetin standard të figurës për konsum normal të energjisë.</string>
 </resources>

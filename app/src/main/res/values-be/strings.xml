@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Абнаўленне E-Pos. Пачакайце.</string>
     <string name="btn_done">Зроблена</string>
     <string name="btn_edit">Рэдагаваць</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>Папярэджанне!</b></string>
+    <string name="energy_summary_one">Энергаспажыванне ў бягучым рэжыме адлюстравання можа быць вышэй, чым паказана у завадской таблічцы.</string>
+    <string name="energy_summary_two">Выкарыстоўвайце стандартны рэжым адлюстравання для нармальнага спажывання энергіі.</string>
 </resources>

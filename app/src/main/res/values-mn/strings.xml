@@ -113,4 +113,9 @@
     <string name="epos_updating_tips">E-Pos-ыг шинэчилж байна. Хүлээнэ үү.</string>
     <string name="btn_done">Хийсэн</string>
     <string name="btn_edit">Засвар хийх</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>АНХААРУУЛГА</b></string>
+    <string name="energy_summary_one">Энэ зурагны горимын эрчим хч зарцуулалт нь заасан эрчим хчний шошгоос арай илл их байж магадгй. \n\nЭрчим хч хэрэглэх жирийн аргад зориулж Стандарт зурагны горим хэрэглэнэ .</string>
+    <string name="energy_summary_two">Та энерги жирийн байдлаар зарцуулахаар Стандарт зургийн горим хэрэглэнэ  </string>
 </resources>

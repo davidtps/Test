@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Aktualizacja E-Pos. Proszę czekać.</string>
     <string name="btn_done">Gotowe</string>
     <string name="btn_edit">Edytuj</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>OSTRZEŻENIE</b></string>
+    <string name="energy_summary_one">Zużycie energii w bieżącym trybie obrazu może być wyższe od wskazanego na etykiecie energetycznej</string>
+    <string name="energy_summary_two">Korzystaj ze standardowego trybu obrazu, by zużycie energii było normalne</string>
 </resources>

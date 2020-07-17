@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">E-Pos uuendamine. Palun oodake.</string>
     <string name="btn_done">Valmis</string>
     <string name="btn_edit">Muuda</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>HOIATUS</b></string>
+    <string name="energy_summary_one">Aktiivse pildirežiimi energiatarbimine võib olla energiamärgisel näidatust suurem.</string>
+    <string name="energy_summary_two">Tavapärase energiatarbimise saavutamiseks kasutage standardset pildirežiimi.</string>
 </resources>

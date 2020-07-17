@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">E-Pos እየዘመነ ነው፡፡ እባክዎን ይጠብቁ፡፡</string>
     <string name="btn_done">ተከናውኗል</string>
     <string name="btn_edit">አርትዕ</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ማስጠንቀቂያ</b></string>
+    <string name="energy_summary_one">በአሁኑ የምስል ሁነታ ውስጥ የኃይል ፍጆታ በኃይል ልኬት ማሳያ ላይ ከተመልከተው በላይ ሊሆን ይችላል።</string>
+    <string name="energy_summary_two">ለመደበኛ የኃይል ፍጆታ እባክዎ መደበኛ የምስል ሁነታን ይጠቀሙ</string>
 </resources>

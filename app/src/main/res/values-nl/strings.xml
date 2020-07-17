@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">E-Pos updaten. Even geduld.</string>
     <string name="btn_done">Klaar</string>
     <string name="btn_edit">Bewerk</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>WAARSCHUWING</b></string>
+    <string name="energy_summary_one">Het energieverbruik in de huidige beeldmodus kan hoger zijn dan aangegeven op het energielabel</string>
+    <string name="energy_summary_two">Gebruik a.u.bg. de standaard beeldmodus voor een normaal energieverbruik</string>
 </resources>

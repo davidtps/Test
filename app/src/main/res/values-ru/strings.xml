@@ -113,4 +113,9 @@
     <string name="epos_updating_tips">Обновление E-Pos. Подождите.</string>
     <string name="btn_done">Готово</string>
     <string name="btn_edit">Редактировать</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ПРЕДУПРЕЖДЕНИЕ</b></string>
+    <string name="energy_summary_one">Потребление энергии в текущем режиме изображения может быть выше, чем указано в заводской табличке.</string>
+    <string name="energy_summary_two">Для нормального энергопотребления, используйте стандартный режим изображения.</string>
 </resources>

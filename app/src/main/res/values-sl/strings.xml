@@ -96,6 +96,7 @@
     <string name="switch_usb_priority_content">USB Priority</string>
 
 
+
     <string name="mall_logo_max_pic_size">Največja velikost logotipa je %1$d!</string>
     <string name="mall_logo_pic_exist">Slika že obstaja.</string>
     <string name="delete_picture_dialog_title">Izbriši sliko</string>
@@ -110,4 +111,9 @@
     <string name="epos_updating_tips">Posodabljam E-Pos. Prosimo počakajte.</string>
     <string name="btn_done">Opravljeno</string>
     <string name="btn_edit">Uredi</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>OPOZORILO</b></string>
+    <string name="energy_summary_one">Poraba energije v trenutnem načinu slike je lahko višja, kot je navedeno v nalepki s podatki o energiji</string>
+    <string name="energy_summary_two">Za normalno porabo energije uporabite način Standardna slika</string>
 </resources>

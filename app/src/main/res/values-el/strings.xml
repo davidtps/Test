@@ -110,4 +110,9 @@
     <string name="epos_updating_tips">Γίνεται ενημέρωση E-Pos. Περιμένετε.</string>
     <string name="btn_done">Έγινε</string>
     <string name="btn_edit">Επεξεργασία</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ΠΡΟΕΙΔΟΠΟΙΗΣΗ</b></string>
+    <string name="energy_summary_one">Η κατανάλωση ενέργειας στην τρέχουσα λειτουργία εικόνας μπορεί να είναι μεγαλύτερη από αυτή που υποδεικνύεται στην ετικέτα βαθμονόμησης ενέργειας</string>
+    <string name="energy_summary_two">Χρησιμοποιείτε την Τυπική λειτουργία εικόνας για κανονική κατανάλωση ενέργειας</string>
 </resources>

@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">E-Pos yenilənir. Lütfən gözləyin.</string>
     <string name="btn_done">Tamam</string>
     <string name="btn_edit">Dəyiş</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title">XƏBƏRDARLIQ</string>
+    <string name="energy_summary_one">Cari görüntü rejimində enerji sərfiyyatı enerji şkala etiketində göstəriləndən daha yüksək ola bilər</string>
+    <string name="energy_summary_two">Normal enerji sərfiyyatı üçün lütfən Standart görüntü rejimini istifadə edin</string>
 </resources>

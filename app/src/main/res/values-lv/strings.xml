@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">Notiek E-Pos atjaunināšana. Lūdzu, uzgaidiet.</string>
     <string name="btn_done">Gatavs</string>
     <string name="btn_edit">Rediģēt</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>BRĪDINĀJUMS</b></string>
+    <string name="energy_summary_one">Enerģijas patēriņš pašreizējā attēla režīmā var būt augstāks, nekā norādīts energoefektivitātes marķējumā</string>
+    <string name="energy_summary_two">Izmantojiet standarta attēla režīmu, lai nodrošinātu normālu enerģijas patēriņu.</string>
 </resources>

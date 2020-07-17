@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Opdaterer E-Pos. Vent venligst.</string>
     <string name="btn_done">Udført</string>
     <string name="btn_edit">Rediger</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ADVARSEL</b></string>
+    <string name="energy_summary_one">Energiforbrug i den nuværende billedtilstand kan være højere end vist på etiketten til energivurdering.</string>
+    <string name="energy_summary_two">Anvend venligst standard billedtilstand til normalt energiforbrug</string>
 </resources>

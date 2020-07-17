@@ -115,4 +115,9 @@
     <string name="epos_updating_tips">در حال به‌روزرسانی E-Pos.  لطفاً منتظر بمانید.</string>
     <string name="btn_done">انجام شد</string>
     <string name="btn_edit">ویرایش</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>هشدار</b></string>
+    <string name="energy_summary_one">مصرف انرژی در حالت فعلی تصویر ممکن است بالاتر از مقدار درج‌شده روی برچسب انرژی باشد</string>
+    <string name="energy_summary_two">لطفاً برای مصرف انرژی عادی، از حالت تصویر استاندارد استفاده کنید</string>
 </resources>

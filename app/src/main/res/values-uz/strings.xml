@@ -113,4 +113,9 @@
 
     <string name="btn_done">Bajarildi</string>
     <string name="btn_edit">Tahrirlash</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>OGOHLANTIRISH</b></string>
+    <string name="energy_summary_one">Hozirgi tasvir rejimida energiya sarfi yorliqda ko‘rsatilgan nominal energiya sarfidan yuqori bo‘lishi mumkin</string>
+    <string name="energy_summary_two">Normal energiya sarfi uchun Standart tasvir rejimidan foydalaning</string>
 </resources>

@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">Atnaujinamas „E-Pos“. Palaukite.</string>
     <string name="btn_done">Atlikta</string>
     <string name="btn_edit">Redaguoti</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ĮSPĖJIMAS</b></string>
+    <string name="energy_summary_one">Energijos suvartojimas esamame režime gali būti didesnis nei rodoma energijos vertinimo etiketėje</string>
+    <string name="energy_summary_two">Norėdami užtikrinti normalų energijos sunaudojimą, naudokite standartinę vaizdo būseną</string>
 </resources>

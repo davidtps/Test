@@ -64,6 +64,7 @@
     <string name="not_find_update_file_tips2">Tiada fail terkini dijumpai. Sila pastikan %1$s atau %2$s terletak di direktori akar USB.</string>
 
 
+
     <string name="add_mall_logo_success">Logo kedai telah berjaya dimuat naik.</string>
 
     <string name="epos_position_adjustment">Pelarasan Kedudukan E\u2011Pos</string>
@@ -115,4 +116,9 @@
     <string name="epos_updating_tips">Mengemaskini E-Pos. Sila tunggu.</string>
     <string name="btn_done">Selesai</string>
     <string name="btn_edit">Edit</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>AMARAN</b></string>
+    <string name="energy_summary_one">Penggunaan tenaga dalam mod gambar semasa mungkin lebih tinggi daripada yang ditunjukkan dalam label penarafan tenaga</string>
+    <string name="energy_summary_two">Sila gunakan mod gambar piawai untuk penggunaan tenaga biasa</string>
 </resources>

@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Uppfæri E-Pos. Vinsamlegast hinkraðu.</string>
     <string name="btn_done">Klárað</string>
     <string name="btn_edit">Breyta</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>VIÐVÖRUN</b></string>
+    <string name="energy_summary_one">Orkunotkun í núverandi myndaham getur verið meiri en gefið er til kynna í orkuhlutfallsmerkingu</string>
+    <string name="energy_summary_two">Vinsamlegast notaðu Staðlaðan myndaham fyrir eðlilega orkunotkun</string>
 </resources>

@@ -114,4 +114,9 @@
 
     <string name="btn_done">Готово</string>
     <string name="btn_edit">Редагувати</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ПОПЕРЕДЖЕННЯ</b></string>
+    <string name="energy_summary_one">Споживання енергії в поточному режимі зображення може бути вище, ніж вказано в табличці.</string>
+    <string name="energy_summary_two">Для нормального енергоспоживання, використовуйте стандартний режим зображення.</string>
 </resources>

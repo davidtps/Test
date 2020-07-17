@@ -114,4 +114,9 @@
     <string name="epos_updating_tips">E-Pos کی تازہ کاری جا ری ہے۔ براہ مہربانی انتظار فرمائیں۔</string>
     <string name="btn_done">ہوگیا</string>
     <string name="btn_edit">ترمیم کریں</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title">انتباہ</string>
+    <string name="energy_summary_one">موجودہ تصویر موڈ میں انرجی کھپت بتائے گئے انرجی ریٹنگ لیبل سے قدرے زیادہ ہو </string>
+    <string name="energy_summary_two">براہ مہربانی معمول کے مطابق انرجی کھپت کیلئے میعاری تصویر موڈ استعال کریں</string>
 </resources>

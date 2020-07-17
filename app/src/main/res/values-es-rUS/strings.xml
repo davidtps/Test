@@ -33,7 +33,7 @@
 
     <string name="resume_storemode_title">Reanudar la demostración en modo tienda</string>
     <string name="resume_storemode_desc">La TV volverá al modo de demostración de tienda pronto. Puede presionar cualquier botón del control remoto para posponer este proceso.</string>
-    <string name="fte_init_storemode_title">Inicie la Modalidad Tienda</string>
+    <string name="fte_init_storemode_title">Inicie el Modo Tienda</string>
     <string name="fte_init_storemode_desc">Se iniciará el Modo de tienda, ¿desea continuar?</string>
     <string name="fte_init_storemode_back">Volver a FTE</string>
     <string name="fte_init_storemode_enter">Entre en modo tienda</string>
@@ -48,7 +48,7 @@
 
     <string name="usb_not_found">No se encuentra un dispositivo USB. Asegúrese de que su dispositivo esté conectado.</string>
     <string name="udate_success">¡Actualización correcta!</string>
-    <string name="guide_poweron_title">Puede cambiar a la Modalidad Hogar en los Ajustes</string>
+    <string name="guide_poweron_title">Puede cambiar al Modo doméstico en los Ajustes</string>
 
     <string name="use_mode">Modo de uso</string>
     <string name="user_mode">Modo doméstico</string>
@@ -65,7 +65,7 @@
     <string name="add_mall_logo_success">El logotipo del centro comercial se ha subido correctamente.</string>
 
     <string name="epos_position_adjustment">Ajuste de posición E-Pos</string>
-    <string name="mall_logo_position_adjustment">Ajuste de posición del logotipo de Mall &amp; Promoción</string>
+    <string name="mall_logo_position_adjustment">Ajuste de posición del logotipo de Tienda &amp; Promoción</string>
     <string name="epos_update">Actualización de E-pos</string>
     <string name="invalid_button_press_tips">Botón inválido al presionar en modo tienda</string>
     <string name="video_update_title">Actualizar video</string>
@@ -100,7 +100,7 @@
     <string name="mall_logo_pic_exist">La imagen ya existe.</string>
     <string name="delete_picture_dialog_title">Borrar imagen</string>
     <string name="delete_picture_dialog_content">¿Está seguro de que desea borrar esto?</string>
-    <string name="delete_picture_succes_tips">Borrado exitoso</string>
+    <string name="delete_picture_succes_tips">Borrado con éxito</string>
 
 
     <string name="position_left">Izquierda</string>
@@ -110,4 +110,9 @@
     <string name="epos_updating_tips">Actualizando E-Pos. Por favor, espere.</string>
     <string name="btn_done">Hecho</string>
     <string name="btn_edit">Editar</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ADVERTENCIA</b></string>
+    <string name="energy_summary_one">El consumo de energía en el modo de imagen actual puede ser mayor que el indicado en la etiqueta de calificación energética</string>
+    <string name="energy_summary_two">Utilice el modo de imagen estándar para el consumo de energía normal</string>
 </resources>

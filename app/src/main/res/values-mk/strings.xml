@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">Ажурирање на E-Pos. Ве молиме причекајте.</string>
     <string name="btn_done">Готово</string>
     <string name="btn_edit">Уреди</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ПРЕДУПРЕДУВАЊЕ</b></string>
+    <string name="energy_summary_one">Потрошувачката на енергија во тековниот режим на слика може да биде поголема од онаа наведена на етикетата за енергетска класа</string>
+    <string name="energy_summary_two">Користете го стандардниот режим за слика за нормална потрошувачка на енергија</string>
 </resources>

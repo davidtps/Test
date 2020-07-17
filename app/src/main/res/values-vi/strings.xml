@@ -114,5 +114,8 @@
     <string name="btn_done">Đã làm</string>
     <string name="btn_edit">Sửa</string>
 
-
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>CẢNH BÁO</b></string>
+    <string name="energy_summary_one">Tiêu thụ năng lượng trong chế độ hình ảnh hiện tại có thể cao hơn so với mức chỉ định trong nhãn đánh giá năng lượng</string>
+    <string name="energy_summary_two">Hãy sử dụng chế độ hình ảnh Tiêu chuẩn để tiêu thụ năng lượng thông thường</string>
 </resources>

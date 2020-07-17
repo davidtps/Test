@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">Memperbarui E-Pos. silakan tunggu.</string>
     <string name="btn_done">Selesai</string>
     <string name="btn_edit">Edit</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>PERINGATAN</b></string>
+    <string name="energy_summary_one">Konsumsi energi dalam mode gambar saat ini mungkin lebih tinggi daripada yang ditunjukkan dalam label rating listrik</string>
+    <string name="energy_summary_two">Silakan gunakan mode gambar standar untuk konsumsi energi normal</string>
 </resources>

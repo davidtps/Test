@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">E-Pos अपडेट हो रहा. कृप्या इंतेज़ार करें.</string>
     <string name="btn_done">पूरा हो गया</string>
     <string name="btn_edit">एडिट</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>चेतावनी</b></string>
+    <string name="energy_summary_one">मौजूदा पिक्चर मोड में रेटिंग लेबल में दिखने वाले स्तर से अधिक उर्जा खपत हो सकती है.</string>
+    <string name="energy_summary_two">आम उर्जा खपत के लिए कृप्या स्टैंडर्ड पिक्चर मोड का प्रयोग करें.</string>
 </resources>

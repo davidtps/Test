@@ -106,4 +106,9 @@
     <string name="epos_updating_tips">جار تحديث الـ E-Pos. يرجى الانتظار.</string>
     <string name="btn_done">تم</string>
     <string name="btn_edit">تعديل</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>تحذير</b></string>
+    <string name="energy_summary_one">استهلاك الطاقة في وضع الصورة الحالي قد يكون أعلى من الموضح على ملصق تصنيف الطاقة.</string>
+    <string name="energy_summary_two">يرجى استخدام وضع الصورة القياسي من أجل استهلاك طاقة طبيعي.</string>
 </resources>

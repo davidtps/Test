@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Актуализиране на E-Pos. Моля, изчакайте.</string>
     <string name="btn_done">Готово</string>
     <string name="btn_edit">Редактиране</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ПРЕДУПРЕЖДЕНИЕ</b></string>
+    <string name="energy_summary_one">Потреблението на енергия при текущия режим на картината може да бъде по-високо от посоченото върху етикета за енергийна консумация.</string>
+    <string name="energy_summary_two">За нормално енергийно потребление е необходимо да използвате стандартен режим на картината.</string>
 </resources>

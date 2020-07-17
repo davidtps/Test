@@ -113,4 +113,9 @@
 
     <string name="btn_done">Bitti</string>
     <string name="btn_edit">Düzenle</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>UYARI</b></string>
+    <string name="energy_summary_one">Mevcut resim modunda enerji tüketimi, enerji derecelendirme etiketinde belirtilenden daha yüksek olabilir. </string>
+    <string name="energy_summary_two">Lütfen normal enerji tüketimi için Standart resim modunu kullanın </string>
 </resources>

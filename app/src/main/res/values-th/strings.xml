@@ -113,4 +113,9 @@
 
     <string name="btn_done">ทำสำเร็จ</string>
     <string name="btn_edit">แก้ไข</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>คำเตือน</b></string>
+    <string name="energy_summary_one">การใช้พลังงานในโหมดภาพปัจจุบันอาจสูงกว่าที่บ่งชี้ไว้ในป้ายกำกับพิกัดพลังงาน</string>
+    <string name="energy_summary_two">โปรดใช้โหมดภาพมาตรฐานสำหรับการใช้พลังงานปกติ</string>
 </resources>

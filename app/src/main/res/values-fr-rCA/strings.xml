@@ -110,4 +110,9 @@
     <string name="epos_updating_tips">Mise à jour de l\'E-Pos. S\'il vous plaît, attendez.</string>
     <string name="btn_done">Terminer</string>
     <string name="btn_edit">Modifier</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ATTENTION</b></string>
+    <string name="energy_summary_one">La consommation d\'énergie de ce mode d\'image peut être supérieure à celle indiquée sur l\'étiquette énergétique</string>
+    <string name="energy_summary_two">Veuillez utiliser le mode Standard pour une consommation d\'énergie normale</string>
 </resources>

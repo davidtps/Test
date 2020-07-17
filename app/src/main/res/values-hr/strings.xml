@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">Ažuriranje E-Pos. Molimo pričekajte.</string>
     <string name="btn_done">Gotovo</string>
     <string name="btn_edit">Uredi.</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>UPOZORENJE</b></string>
+    <string name="energy_summary_one">Potrošnja energije u režimu trenutne slike može biti viša nego što je navedeno u oznaci energetske učinkovitosti</string>
+    <string name="energy_summary_two">Za normalnu potrošnju energije koristite standardni način slike</string>
 </resources>

@@ -59,9 +59,10 @@
 
     <string name="mall_logo_limit">Por favor, escolha uma imagem PNG ou JPG</string>
     <string name="enter_storemode">Entrar no Modo de Loja</string>
-    <string name="init_storemode_countdown">Se continuar a premir a tecla OK, o menu da sua TV iniciará o Modo de Loja.</string>
+    <string name="init_storemode_countdown">Se continuar a pressionar Ok, o menu da TV inicia o Modo de Loja</string>
     <string name="not_find_update_file_tips">Não foi possível encontrar um ficheiro de atualização. Por favor, certifique-se de que o %1$s se encontra localizado no diretório USB de origem.</string>
     <string name="not_find_update_file_tips2">Não foi possível encontrar um ficheiro de atualização. Por favor, certifique-se de que o %1$s ou %2$s se encontra localizado no diretório USB de origem.</string>
+
 
 
     <string name="add_mall_logo_success">O logotipo de shopping foi carregado.</string>
@@ -69,7 +70,7 @@
     <string name="epos_position_adjustment">Ajustamento posição E\u2011Pos</string>
     <string name="mall_logo_position_adjustment">Ajuste da posição do Logótipo Promocional e para Centros Comerciais</string>
     <string name="epos_update">Atualizar E\u2011Pos</string>
-    <string name="invalid_button_press_tips">Carregou num botão inválido no Modo de Loja</string>
+    <string name="invalid_button_press_tips">Carregou em uma tecla inválida no Modo de Loja</string>
     <string name="video_update_title">Atualizar vídeo</string>
 
     <string name="prompt_build_in_video_update">A atualizar vídeo integrado. Por favor, aguarde.</string>
@@ -114,4 +115,9 @@
     <string name="epos_updating_tips">Atualizar E-Pos. Por favor, aguarde.</string>
     <string name="btn_done">Concluído</string>
     <string name="btn_edit">Editar</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>AVISO</b></string>
+    <string name="energy_summary_one">O consumo de energia no modo de imagem atual poderá ser superior ao indicado na etiqueta de classificação energética</string>
+    <string name="energy_summary_two">Use o modo de imagem Padrão para um consumo energético normal</string>
 </resources>

@@ -110,4 +110,9 @@
     <string name="epos_updating_tips">Aktualizace E-pos. Prosím čekejte.</string>
     <string name="btn_done">Hotovo</string>
     <string name="btn_edit">Upraviť</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>UPOZORNENIE:</b></string>
+    <string name="energy_summary_one">Spotreba energie v aktuálnom režime obrazu môže byť vyššia, ako je uvedené na energetickom štítku</string>
+    <string name="energy_summary_two">Pre normálnu spotrebu energie použite Štandardný režim obrazu</string>
 </resources>

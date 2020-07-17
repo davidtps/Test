@@ -112,4 +112,9 @@
     <string name="epos_updating_tips"> E-Pos-ի նորացում: Խնդրում ենք սպասել:</string>
     <string name="btn_done">Կատարած</string>
     <string name="btn_edit">Խմբագրել</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ԶԳՈՒՇԱՑՈՒՄ</b></string>
+    <string name="energy_summary_one">Էներգիայի սպառումը ներկա նկարների ռեժիմւոմ կարող է ավելի շատ լինել, քան էներգասպառման պիտակի վրա նշվածը</string>
+    <string name="energy_summary_two">Օգտագործեք Ստանդարտ նկարների ռեժիմը նորմալ էներգասպառման համար</string>
 </resources>

@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">Az E-Pos frissítése. Kérlek várj.</string>
     <string name="btn_done">Kész</string>
     <string name="btn_edit">Szerkesztés</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>FIGYELMEZTETÉS!</b></string>
+    <string name="energy_summary_one">Az energiafogyasztás az aktuális képmódban magasabb lehet, mint az energiacímkén feltüntetett érték.</string>
+    <string name="energy_summary_two">A normál energiafogyasztáshoz használja a standard képmódot.</string>
 </resources>

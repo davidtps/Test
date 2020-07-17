@@ -114,4 +114,9 @@
     <string name="epos_updating_tips">E-Pos `ту жаныртуу. Сураныч күтөтурунуз</string>
     <string name="btn_done">Жасалган</string>
     <string name="btn_edit">Түзөтүү</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ЭСКЕРТ</b></string>
+    <string name="energy_summary_one">Учурдагы срт режиминде кубатты керектнн кубат рейтинги крстлгн белгиден жогору болушу ммкн</string>
+    <string name="energy_summary_two">Кубатты орточо керект чн стандарттуу срт режимин колдонууз</string>
 </resources>

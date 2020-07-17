@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Päivitetään asetusta E-Pos. Ole hyvä ja odota.</string>
     <string name="btn_done">Valmis</string>
     <string name="btn_edit">Muokkaa</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>VAROITUS</b></string>
+    <string name="energy_summary_one">Energiankulutus nykyisessä  kuvatilassa voi olla korkeampi kuin energian luokitusmerkinnässä ilmoitettu</string>
+    <string name="energy_summary_two">Ole hyvä ja käytä tavallista kuvatilaa normaalia energiankulutusta varten</string>
 </resources>

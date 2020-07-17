@@ -113,4 +113,9 @@
 
     <string name="btn_done">Gotovo</string>
     <string name="btn_edit">Uredi</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>UPOZORENJE</b></string>
+    <string name="energy_summary_one">Potrošnja energije u trenutnom režimu slike može biti veća od prikazane na nalepnici za potrošnju energije</string>
+    <string name="energy_summary_two">Upotrebite standardni režim slike za normalnu potrošnju energije</string>
 </resources>

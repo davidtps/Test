@@ -47,7 +47,7 @@
 
     <string name="usb_not_found">找不到 USB 装置。请确认您的装置已连接。</string>
     <string name="udate_success">更新成功</string>
-    <string name="guide_poweron_title">您可以通知设置菜单来切换到用户模式</string>
+    <string name="guide_poweron_title">您可以通过设置菜单来切换到用户模式</string>
 
     <string name="use_mode">使用模式</string>
     <string name="user_mode">家庭模式</string>
@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">正在更新E-Pos，请稍候。</string>
     <string name="btn_edit">编辑</string>
     <string name="btn_done">完成</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>警告</b></string>
+    <string name="energy_summary_one">当前图片模式下的能源消耗可能比能源等级标签上显示的要高</string>
+    <string name="energy_summary_two">正常能耗请使用标准图片模式</string>
 </resources>

@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">Actualizare E-Pos. Vă rugăm  asteptati.</string>
     <string name="btn_done">Terminat</string>
     <string name="btn_edit">Editați</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>AVERTIZARE</b></string>
+    <string name="energy_summary_one">Consumul de energie în modul imagine curent poate fi mai mare decât cel indicat în eticheta de evaluare a puterii</string>
+    <string name="energy_summary_two">Utilizați modul imagine standard pentru consumul normal de energie</string>
 </resources>

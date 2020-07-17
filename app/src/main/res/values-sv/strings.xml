@@ -111,4 +111,9 @@
 
     <string name="btn_done">Klart</string>
     <string name="btn_edit">Redigera</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>VARNING</b></string>
+    <string name="energy_summary_one">Energiförbrukningen i det aktuella bildläget kan vara högre än vad som anges på energiklassens etikett</string>
+    <string name="energy_summary_two">Använd standard bildläge för normal energiförbrukning</string>
 </resources>

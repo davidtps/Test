@@ -111,4 +111,9 @@
     <string name="epos_updating_tips">E-Pos жаңартылуда. Күте тұрыңыз.</string>
     <string name="btn_done">Орындалды</string>
     <string name="btn_edit">Өңдеу</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>ЕСКЕРТУ</b></string>
+    <string name="energy_summary_one">Ағымдағы сурет режиміндегі қуат тұтынуы қуат көрсеткіші жапсырмасында көрсетілгеннен жоғары болуы мүмкін</string>
+    <string name="energy_summary_two">Қалыпты энергияны тұтыну үшін Стандартты сурет режимін пайдаланыңыз</string>
 </resources>

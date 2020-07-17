@@ -113,4 +113,9 @@
     <string name="epos_updating_tips">E-Pos განახლება. გთხოვთ დაიცადოთ.</string>
     <string name="btn_done">კეთდება</string>
     <string name="btn_edit">რედაქტირება</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>გაფრთხილება</b></string>
+    <string name="energy_summary_one">ენერგიის მოხმარება მიმდინარე სურათის რეჟიმში შესაძლოა იყოს უფრო მეტი ვიდრე მითითებულია ენერგიის მოხმარების ეტიკეტზე</string>
+    <string name="energy_summary_two">გთხოვთ, გამოიყენეთ სტანდარტული სურათის რეჟიმი ენერგიის ნორმალური მოხმარებისათვის</string>
 </resources>

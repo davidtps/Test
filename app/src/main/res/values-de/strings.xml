@@ -112,4 +112,9 @@
     <string name="epos_updating_tips">E-Pos wird aktualisiert. Bitte warten.</string>
     <string name="btn_done">Fertig</string>
     <string name="btn_edit">Bearbeiten</string>
+
+    <!--Energy ui for AU-->
+    <string name="energy_title"><b>WARNHINWEIS</b></string>
+    <string name="energy_summary_one">Der Energieverbrauch im aktuellen Bildmodus ist evtl. höher als der Wert auf dem Energielabel</string>
+    <string name="energy_summary_two">Verwenden Sie für einen normalen Energieverbrauch den Standardbildmodus</string>
 </resources>
